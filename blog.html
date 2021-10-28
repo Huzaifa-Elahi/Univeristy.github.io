@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- with = width -->
+    <!-- <meta name="viewport" content="with =device-width, initial-scale-1.0" > -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.goog
+    leapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+            <div class="nav_links" id="NAVLINK">
+                <i class="fa fa-times" onclick="hide_menu()"></i>
+
+
+                <ul>
+                    <li>
+                        <a href="">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course.html">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show_menu()"></i>
+
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+    <section class="categories">
+        <div class="row">
+            <div class="categories_col_1">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure sequi esse id, natus adipisci exercitationem reprehenderit a et necessitatibus voluptatum ratione, nobis rem iste ad saepe maiores dolorum. Ipsum. <br><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam odio reprehenderit unde dolores consequatur molestiae perferendis non nobis. Dolor molestiae, est fuga pariatur nesciunt porro quibusdam cum aliquid maiores, optio cupiditate repellendus earum neque consectetur libero voluptatem! Explicabo similique porro officia mollitia odit veritatis dignissimos a, quo, recusandae, debitis sed! <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta odit cumque qui. Nisi voluptatum ullam asperiores harum eos quam ab quo a, magnam fugit velit fuga vero minima possimus deleniti facere enim maiores, et, quibusdam voluptatem reiciendis aut impedit eveniet. Quidem fugiat veritatis modi est. <br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quam unde iure est incidunt quia quidem consectetur voluptatibus officia? Itaque recusandae dolor inventore voluptas nesciunt accusantium corrupti unde, hic obcaecati. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deleniti natus harum in, quidem voluptatibus numquam ex dignissimos expedita! Cum hic omnis dignissimos autem, iusto delectus nesciunt consequuntur vero nemo dolorum! Itaque fugiat sint cupiditate?</p>
+                <div class="comment">
+                    <h1>Leave a comment</h1>
+                
+                <form class="comment_form" action="">
+                    <input class="name" type="text" placeholder="Enter Name">
+                    <input class="email" type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <a href="" class="hero_btn">Post Comment</a>
+                </form>
+                <br><br>
+                </div>
+            </div>
+            <div class="categories_col_2">
+                <h1>Post Categories</h1>
+               
+                    
+                    <ul>
+                        <div>
+                            <li>Business Analytics </li><span>21</span>
+                            
+                        </div>
+                        <div>
+                            <li> Data Sciences</li><span>28</span>
+
+                        </div>
+                        <div>
+                            <li> Machine Learning</li><span>15</span>
+
+                        </div>
+                        <div>
+                            <li> Computer Sciences</li><span>34</span>
+
+                        </div>
+                        <div>
+                            <li> AutoCAD</li><span>42</span>
+
+                        </div>
+                        <div>
+                            <li> Journalism</li><span>22</span>
+
+                        </div>
+                        <div>
+                            <li> Commerce</li><span>13</span>
+
+                        </div>
+                    </ul>
+            
+         </div>
+        </div>
+
+    </section>
+    
+    
+    <section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, expedita? <br> Temporibus praesentium officia,
+        placeat quisquam, beatae odio odit.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    </section>
+    <!-- NAVLINK = navLink (id) -->
+    <script>
+        var NAVLINK = document.getElementById("NAVLINK");
+
+        function show_menu() {
+            NAVLINK.style.right = "0";
+        }
+        function hide_menu() {
+            NAVLINK.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
+
+
+                <!-- <span>Business Analytics </span><span>21</span>
+                                <span> Data Sciences</span><span>28</span>
+                                <span> Machine Learning</span><span>15</span>
+                                <span> Computer Sciences</span><span>34</span>
+                                <span> AutoCAD</span><span>42</span>
+                                <span> Journalism</span><span>22</span>
+                                <span> Commerce</span><span>13</span> -->
